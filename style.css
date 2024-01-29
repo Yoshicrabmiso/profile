@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap');
+
+h1, h2{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+h1 {
+  font-size:25px
+}
+
+h2 {
+  font-size:16px
+}
+a {
+  text-decoration: none;
+}
+.profile-size{
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic{
+  width: 150px;
+  position: relative;
+  left: -20px
+}
+.dog-pic{
+  width: 100px;
+  position: relative;
+  left: 0px
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block
+}
+.profile-inline {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efe5c7;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: #775f1d;
+  margin: 16px;
+}
+
+.card-brown {
+  background-color: #775f1d;
+}
+
+div {
+  background-color: #d9d9d9;
+}
+.card-beige {
+  background-color: #efe5c7;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+}
+.icon-beige {
+  background-color: #efe5c7;
+  border-radius: 8px;
+
+}
+
+#arrow-black {
+  color: #000000
+}
+#arrow-red {
+  color: #ae1010
+}
+.doggy-image {
+  position: relative;
+  height: 100px;
+  transform: rotate(-20deg);
+}
